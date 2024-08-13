@@ -85,11 +85,11 @@ const SkillInfo = [
     }
 ]
 const socialLinks = [
-    { link: "https://github.com/Code-Mars", icon: IconBrandGithub },
-    { link: "https://www.linkedin.com/in/chandrabhan-maurya", icon: IconBrandLinkedin },
-    { link: "https://www.instagram.com/code.marshal_", icon: IconBrandInstagram }, 
-    { link: "https://www.youtube.com/channel/UC1ki6jaFvFiH_E79b9FYptw", icon: IconBrandYoutube },
-    { link: "https://www.leetcode.com/u/CodeMars", icon: IconBrandLeetcode }
+    { link: "https://github.com/unnat7779", icon: IconBrandGithub },
+    { link: "https://www.linkedin.com/in/unnat7779", icon: IconBrandLinkedin },
+    { link: "https://www.instagram.com/_unnat_7779", icon: IconBrandInstagram }, 
+    
+    { link: "https://www.leetcode.com/u/unnat_7779", icon: IconBrandLeetcode }
 ];
 
 
