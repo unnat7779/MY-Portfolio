@@ -1,3 +1,4 @@
+import GsocImage from './gsoc.png';
 import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandYoutube } from "@tabler/icons-react";
 const Info = {
     name: "Unnat Agrawal",
@@ -26,15 +27,15 @@ const ProjectInfo = [
     //     link: "https://github.com/Code-Mars/Facebook-Clone",
     //     github: "https://github.com/Code-Mars/Facebook-Clone"
     // },
-    // {
-    //     title: "Spotify Clone",
-    //     desc: "Spotify Clone is a full-stack web application that replicates the core features of Spotify, including user authentication, music playback, and playlist creation. The front end is built with React, TailwindCSS, Heroicons, and Firebase, while the back end uses Firebase for user authentication and data storage. Users can create an account, log in, search for songs, and create playlists. The app features real-time updates, so users can see new songs as they are added. Spotify Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
-    //     image: "Spotify.png",
-    //     live: false,
-    //     technologies: ["React", "Springboot", "Tailwind", "Tabler-Icons", "MongoDB", "Firebase"],
-    //     link: "https://github.com/Code-Mars/Spotify-Clone",
-    //     github: "https://github.com/Code-Mars/Spotify-Clone"
-    // },
+    {
+        title: "Spotify Clone",
+        desc: "Spotify Clone is a full-stack web application that replicates the core features of Spotify, including user authentication, music playback, and playlist creation. The front end is built with React, TailwindCSS, Heroicons, and Firebase, while the back end uses Firebase for user authentication and data storage. Users can create an account, log in, search for songs, and create playlists. The app features real-time updates, so users can see new songs as they are added. Spotify Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
+        image: `${process.env.PUBLIC_URL}/Spotify.png`,  // Correct usage inside an object
+        live: false,
+        technologies: ["React", "Tailwind", "Tabler-Icons", "MongoDB", "Firebase"],
+        link: "https://github.com/Code-Mars/Spotify-Clone",
+        github: "https://github.com/Code-Mars/Spotify-Clone"
+    },
     // {
     //     title: "Travel Tracker",
     //     desc: "Travel Tracker is a full-stack web application that allows users to track their travel experiences and share them with others. The front end is built with React, Bootstrap, while the back end uses Node.js, Express, and PostgresSQL. Users can create an account, log in, add new trips, and view their past trips on a map. The app features a clean, modern design with interactive maps and a user-friendly interface. Travel Tracker combines functionality with style, making it easy and enjoyable to record and share travel memories.",
@@ -54,11 +55,12 @@ const ProjectInfo = [
     //     github: "https://github.com/Code-Mars/Instagram-Clone"
     // },
     {
-        title: "CodeX Code Editor",
-        desc: "CodeX is a modern, fully responsive code editor built using React, TailwindCSS, and Ace Editor, offering a seamless coding experience across all devices. It features syntax highlighting for popular programming languages, including HTML, CSS, JavaScript, Python, and Java. Users can create, edit, and save code files, with the option to download them as text files. CodeX combines robust functionality with a sleek, intuitive design, making coding effortless and enjoyable.",
-        image: "CodeX.png",
+        title: "GSOC Clone",
+        desc: "I developed a GSoC clone that replicates the core functionalities of the Google Summer of Code platform while introducing several enhanced features. This project enables users to search and explore participating companies with additional filters, making it easier to find opportunities that align with their interests and skills.",
+        image: `${process.env.PUBLIC_URL}/gsco2.png`,
+  // Add the slash before the file name
         live: false,
-        technologies: ["React", "Tailwind", "Ace Editor"],
+        technologies: ["React", "Tailwind", "JavaScript", "Tabler-Icons"],
         link: "https://github.com/Code-Mars/CodeX",
         github: "https://github.com/Code-Mars/CodeX"
     }
