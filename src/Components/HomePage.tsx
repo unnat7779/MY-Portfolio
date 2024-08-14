@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import Social from './Social'
 import Mail from './Mail'
+import Footer from "./Footer";
 import About from './About'
 import Projects from './Projects'
 import Experience from './Experience'
@@ -20,7 +21,8 @@ const Homepage = () => {
         <Skills/> 
         <Experience/>
         <Contact/>
-        <Loader/>
+        <Footer/>
+        {/* <Loader/> */}
 
     </div>
   )
