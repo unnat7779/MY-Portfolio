@@ -1,31 +1,37 @@
-import React from 'react'
-import Header from './Header'
-import Social from './Social'
-import Mail from './Mail'
+import { useEffect, useState } from "react";
+import About from "./About";
+import Contact from "./Contact";
+import Experience from "./Experience";
 import Footer from "./Footer";
-import About from './About'
-import Projects from './Projects'
-import Experience from './Experience'
-import Skills from './Skills'
-import Contact from './Contact'
+import Header from "./Header"
 import { Loader } from "./Loader";
-const Homepage = () => {
-  return (
-    <div>
+import Mail from "./Mail";
+import Projects from "./Projects";
+import Skills from "./Skills";
+import Social from "./Social";
+import { Toaster } from "react-hot-toast";
+
+const HomePage = () => {
+    const [loading, setLoading] = useState(true);
+    useEffect(()=>{
+        setTimeout(()=>{
+            setLoading(false);
+        }, 5000) 
+    }, [])
+    return <div className={` focus-visible:[&_button]:!outline-none min-h-[100dvh] ${loading?"flex":""} items-center overflow-hidden justify-center`}>
+{   loading!==true?<>
+    <Toaster/>
         <Header />
         <About />
-        <Projects/>
-        <Social />
-        <Mail />
-        
-        <Skills/> 
-        <Experience/>
-        <Contact/>
+        <Projects />
+        <Skills />
+        <Experience />
+        <Contact />
         <Footer/>
-        {/* <Loader/> */}
-
+        <Mail />
+        <Social />
+        </>:
+        <Loader/>}
     </div>
-  )
-}
-
-export default Homepage
+};
+export default HomePage;
