@@ -96,13 +96,13 @@ const socialLinks = [
 
 
 const ExperienceInfo = [
-    // {
-    //     role: "Specialist Programmer",
-    //     company: "Infosys",
-    //     date: "Oct 2023 - Present",
-    //     desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
-    //     skills: ["Springboot", "React JS", "Angular", "Node JS", "MySQL", "MongoDB", "Microservices"]
-    // },
+    {
+        role: "Computer Science Student",
+        company: "Delhi Technological University",
+        date: "August 2023 - Present",
+        desc: "Currently pursuing a Bachelor of Technology in Computer Science and Engineering at Delhi Technological University. I have completed courses in data structures, algorithms, object-oriented programming, and software engineering, gaining a strong foundation in computer science principles and practices. I have also participated in hackathons, coding competitions, and projects to apply my skills in real-world scenarios and collaborate with peers to solve complex problems.",
+        skills: [ "React JS", "Node JS", "MongoDB", "TypeScript", "Java", "C++", "Python", "HTML", "CSS", "JavaScript", "Git", "Github", "VS Code", "Figma"]
+    },
     // {
     //     role: "System Engineer",
     //     company: "Infosys",
@@ -131,4 +131,4 @@ const Slugs = [
     
     "figma",
 ];
-export { Info, ProjectInfo,socialLinks, SkillInfo, Slugs };
+export { Info, ProjectInfo,socialLinks, SkillInfo, Slugs , ExperienceInfo };

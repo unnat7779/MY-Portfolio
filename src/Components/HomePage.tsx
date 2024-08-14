@@ -4,6 +4,7 @@ import Social from './Social'
 import Mail from './Mail'
 import About from './About'
 import Projects from './Projects'
+import Experience from './Experience'
 const Homepage = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const Homepage = () => {
         <Projects/>
         <Social />
         <Mail />
+        <Experience/>
         
 
     </div>
